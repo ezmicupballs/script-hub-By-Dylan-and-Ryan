@@ -1,4 +1,4 @@
--- By Dylan & Ryan
+-- by dylan & ryan
 
 -- Instances:
 
@@ -38,8 +38,6 @@ local JailBreakTab = Instance.new("Frame")
 local UICorner_11 = Instance.new("UICorner")
 local vn = Instance.new("TextButton")
 local TextLabel_3 = Instance.new("TextLabel")
-local TextLabel_4 = Instance.new("TextLabel")
-local TextLabel_5 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -110,65 +108,7 @@ NavalWarfare.Font = Enum.Font.GothamBold
 NavalWarfare.Text = "Naval Warfare"
 NavalWarfare.TextColor3 = Color3.fromRGB(0, 0, 0)
 NavalWarfare.TextSize = 14.000
-
-UICorner_4.Parent = NavalWarfare
-
-DaHoodModded.Name = "DaHoodModded"
-DaHoodModded.Parent = SideBar
-DaHoodModded.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-DaHoodModded.Position = UDim2.new(0.0785714313, 0, 0.415094346, 0)
-DaHoodModded.Size = UDim2.new(0, 118, 0, 50)
-DaHoodModded.Font = Enum.Font.GothamBold
-DaHoodModded.Text = "Da Hood Modded"
-DaHoodModded.TextColor3 = Color3.fromRGB(0, 0, 0)
-DaHoodModded.TextSize = 13.000
-
-UICorner_5.Parent = DaHoodModded
-
-JailBreak.Name = "JailBreak"
-JailBreak.Parent = SideBar
-JailBreak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-JailBreak.Position = UDim2.new(0.0785714313, 0, 0.613207519, 0)
-JailBreak.Size = UDim2.new(0, 118, 0, 50)
-JailBreak.Font = Enum.Font.GothamBold
-JailBreak.Text = "JailBreak"
-JailBreak.TextColor3 = Color3.fromRGB(0, 0, 0)
-JailBreak.TextSize = 15.000
-
-UICorner_6.Parent = JailBreak
-
-TextLabel_2.Parent = SideBar
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.Position = UDim2.new(0.0785714313, 0, 0.801886797, 0)
-TextLabel_2.Size = UDim2.new(0, 118, 0, 50)
-TextLabel_2.Font = Enum.Font.GothamBold
-TextLabel_2.Text = "Made By No.#4385"
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
-
-UICorner_7.Parent = TextLabel_2
-
-NavalwarfareTab.Name = "NavalwarfareTab"
-NavalwarfareTab.Parent = main
-NavalwarfareTab.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-NavalwarfareTab.Position = UDim2.new(0.238095239, 0, 0.0807799473, 0)
-NavalwarfareTab.Size = UDim2.new(0, 448, 0, 330)
-NavalwarfareTab.Visible = false
-
-UICorner_8.Parent = NavalwarfareTab
-
-nwgui.Name = "nwgui"
-nwgui.Parent = NavalwarfareTab
-nwgui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-nwgui.Position = UDim2.new(0.261160702, 0, 0.269696981, 0)
-nwgui.Size = UDim2.new(0, 200, 0, 50)
-nwgui.Font = Enum.Font.SourceSans
-nwgui.Text = "Naval warfare gui"
-nwgui.TextColor3 = Color3.fromRGB(0, 0, 0)
-nwgui.TextSize = 14.000
-nwgui.MouseButton1Down:connect(function()
+NavalWarfare.MouseButton1Down:connect(function()
 	print ("GUI Made by Glattic")
 
 	local ScreenGui = Instance.new("ScreenGui")
@@ -2761,6 +2701,64 @@ nwgui.MouseButton1Down:connect(function()
 	end)
 end)
 
+UICorner_4.Parent = NavalWarfare
+
+DaHoodModded.Name = "DaHoodModded"
+DaHoodModded.Parent = SideBar
+DaHoodModded.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DaHoodModded.Position = UDim2.new(0.0785714313, 0, 0.415094346, 0)
+DaHoodModded.Size = UDim2.new(0, 118, 0, 50)
+DaHoodModded.Font = Enum.Font.GothamBold
+DaHoodModded.Text = "Da Hood Modded"
+DaHoodModded.TextColor3 = Color3.fromRGB(0, 0, 0)
+DaHoodModded.TextSize = 13.000
+
+UICorner_5.Parent = DaHoodModded
+
+JailBreak.Name = "JailBreak"
+JailBreak.Parent = SideBar
+JailBreak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JailBreak.Position = UDim2.new(0.0785714313, 0, 0.613207519, 0)
+JailBreak.Size = UDim2.new(0, 118, 0, 50)
+JailBreak.Font = Enum.Font.GothamBold
+JailBreak.Text = "JailBreak"
+JailBreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+JailBreak.TextSize = 15.000
+
+UICorner_6.Parent = JailBreak
+
+TextLabel_2.Parent = SideBar
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0.0785714313, 0, 0.801886797, 0)
+TextLabel_2.Size = UDim2.new(0, 118, 0, 50)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "Made By No.#4385"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_7.Parent = TextLabel_2
+
+NavalwarfareTab.Name = "NavalwarfareTab"
+NavalwarfareTab.Parent = main
+NavalwarfareTab.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+NavalwarfareTab.Position = UDim2.new(0.238095239, 0, 0.0807799473, 0)
+NavalwarfareTab.Size = UDim2.new(0, 448, 0, 330)
+NavalwarfareTab.Visible = false
+
+UICorner_8.Parent = NavalwarfareTab
+
+nwgui.Name = "nwgui"
+nwgui.Parent = NavalwarfareTab
+nwgui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+nwgui.Position = UDim2.new(0.261160702, 0, 0.269696981, 0)
+nwgui.Size = UDim2.new(0, 200, 0, 50)
+nwgui.Font = Enum.Font.SourceSans
+nwgui.Text = "Naval warfare gui"
+nwgui.TextColor3 = Color3.fromRGB(0, 0, 0)
+nwgui.TextSize = 14.000
+
 DaHoodTab.Name = "DaHoodTab"
 DaHoodTab.Parent = main
 DaHoodTab.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
@@ -2882,7 +2880,7 @@ sv.Text = "Soft vortex"
 sv.TextColor3 = Color3.fromRGB(0, 0, 0)
 sv.TextSize = 14.000
 sv.MouseButton1Down:connect(function()
-	script.Parent.Parent.Parent.DaHoodmoddedTab.Visible = false
+	script.parent.Parent.parent.dahoodmoddedtab.visible = false
 end)
 
 JailBreakTab.Name = "JailBreakTab"
@@ -2917,33 +2915,9 @@ TextLabel_3.Text = "https://discord.gg/7urC2rSsJx"
 TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_3.TextSize = 14.000
 
-TextLabel_4.Parent = main
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.BackgroundTransparency = 1.000
-TextLabel_4.Position = UDim2.new(0.367346942, 0, 0.147632316, 0)
-TextLabel_4.Size = UDim2.new(0, 270, 0, 60)
-TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = "Welcome"
-TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.TextScaled = true
-TextLabel_4.TextSize = 14.000
-TextLabel_4.TextWrapped = true
-
-TextLabel_5.Parent = main
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.Position = UDim2.new(0.367346942, 0, 0.395543188, 0)
-TextLabel_5.Size = UDim2.new(0, 270, 0, 69)
-TextLabel_5.Font = Enum.Font.SourceSans
-TextLabel_5.Text = "Enjoy Script Hub"
-TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.TextScaled = true
-TextLabel_5.TextSize = 14.000
-TextLabel_5.TextWrapped = true
-
 -- Scripts:
 
-local function SZXVW_fake_script() -- TextButton.LocalScript 
+local function KMIU_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2954,8 +2928,8 @@ local function SZXVW_fake_script() -- TextButton.LocalScript
 	
 	
 end
-coroutine.wrap(SZXVW_fake_script)()
-local function KZRAT_fake_script() -- DaHood.LocalScript 
+coroutine.wrap(KMIU_fake_script)()
+local function SQJQD_fake_script() -- DaHood.LocalScript 
 	local script = Instance.new('LocalScript', DaHood)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2966,8 +2940,8 @@ local function KZRAT_fake_script() -- DaHood.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(KZRAT_fake_script)()
-local function VLVDUX_fake_script() -- NavalWarfare.LocalScript 
+coroutine.wrap(SQJQD_fake_script)()
+local function XPLB_fake_script() -- NavalWarfare.LocalScript 
 	local script = Instance.new('LocalScript', NavalWarfare)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2978,8 +2952,8 @@ local function VLVDUX_fake_script() -- NavalWarfare.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(VLVDUX_fake_script)()
-local function GAJVXIX_fake_script() -- DaHoodModded.LocalScript 
+coroutine.wrap(XPLB_fake_script)()
+local function PSSHG_fake_script() -- DaHoodModded.LocalScript 
 	local script = Instance.new('LocalScript', DaHoodModded)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2990,8 +2964,8 @@ local function GAJVXIX_fake_script() -- DaHoodModded.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(GAJVXIX_fake_script)()
-local function MKBXI_fake_script() -- JailBreak.LocalScript 
+coroutine.wrap(PSSHG_fake_script)()
+local function YFLMHP_fake_script() -- JailBreak.LocalScript 
 	local script = Instance.new('LocalScript', JailBreak)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3002,4 +2976,4 @@ local function MKBXI_fake_script() -- JailBreak.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(MKBXI_fake_script)()
+coroutine.wrap(YFLMHP_fake_script)()
